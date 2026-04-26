@@ -1,7 +1,7 @@
 # Claude Code 完全指南（中文翻译）
 
 > 原文作者：[@affaanmustafa (cogsec)](https://x.com/affaanmustafa)
-> GitHub 配套仓库：[everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+> GitHub 配套仓库：[everything-claude-code](https://github.com/affaan-m/everything-claude-code) | [agentshield](https://github.com/affaan-m/agentshield)
 
 本文是对 cogsec 发布的 Claude Code 系列文章的中文翻译。
 
@@ -35,3 +35,18 @@
 - 基础工作与双实例启动模式
 - 代理与子代理最佳实践
 - MCP 替代与上下文窗口优化
+
+### 第三篇：[代理安全完全指南](agentic-security-guide-zh.md)
+
+> 原文链接：https://x.com/affaanmustafa/status/2033263813387223421 | 2026年3月15日
+
+安全专题指南，涵盖：
+- 攻击向量与攻击面分析
+- Claude Code CVE 漏洞分析（CVE-2025-59536、CVE-2026-21852）
+- 沙盒化策略（Docker、devcontainer、VM）
+- 输入清理（Unicode 隐藏字符、附件、链接内容）
+- 审批边界与最小代理权
+- 可观察性与日志记录
+- 终止开关与死人开关
+- 记忆安全
+- 最低安全标准清单
